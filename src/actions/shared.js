@@ -7,7 +7,7 @@ const AUTHED_ID = "sarah_edo";
 
 export function handleInitialData() {
   return dispatch => {
-    return getInitialData().then((users, tweets) => {
+    return getInitialData().then(({ users, tweets }) => {
       dispatch(receiveUsers(users));
       dispatch(receiveTweets(tweets));
       dispatch(setAuthedUsers(AUTHED_ID));
