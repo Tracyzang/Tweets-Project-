@@ -10,3 +10,6 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 ##Features
 LoadingBar : import from "react-redux-loading" 
+
+
+You can see a deployed version on : https://www.tztweetproject.com/
